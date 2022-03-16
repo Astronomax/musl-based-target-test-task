@@ -31,4 +31,4 @@ if __name__ == '__main__':
     build_clang(args.clang_release, "build_1", "gcc", "g++")
 
     #rebuild by clang
-    build_clang(args.clang_release, "build_2", f"{os.getcwd()}/build/bin/clang", f"{os.getcwd()}/build/bin/clang++")
+    build_clang(args.clang_release, "build_2", f"{os.getcwd()}/build_1/bin/clang", f"{os.getcwd()}/build_1/bin/clang++")
